@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
             isScrolled ? "text-[#2662A0]" : "text-[#FFF]"
           }`}
         >
-          <a href="/" className="flex items-center">
+          <a href="#" className="flex items-center">
             <Zap size={32} />
             <span className="ml-2 text-2xl font-bold">ЭлектроПро</span>
           </a>
