@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-2xl animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Профессиональные электромонтажные работы
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8">
@@ -38,18 +38,18 @@ const Hero: React.FC = () => {
               Наши услуги
             </a>
           </div>
-          <div className="mt-12 flex items-center gap-6">
-            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg">
-              <p className="text-white text-3xl font-bold">24/7</p>
-              <p className="text-white/90 text-sm">Аварийный выезд</p>
+          <div className="mt-12 flex flex-wrap items-stretch gap-3 sm:gap-6">
+            <div className="bg-white/20 backdrop-blur-sm p-2 sm:p-4 rounded-lg flex-1 min-w-[100px] flex flex-col justify-center h-[80px] sm:h-[100px]">
+              <p className="text-white text-xl sm:text-3xl font-bold text-center">24/7</p>
+              <p className="text-white/90 text-xs sm:text-sm text-center">Аварийный выезд</p>
             </div>
-            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg">
-              <p className="text-white text-3xl font-bold">100%</p>
-              <p className="text-white/90 text-sm">Гарантия качества</p>
+            <div className="bg-white/20 backdrop-blur-sm p-2 sm:p-4 rounded-lg flex-1 min-w-[100px] flex flex-col justify-center h-[80px] sm:h-[100px]">
+              <p className="text-white text-xl sm:text-3xl font-bold text-center">100%</p>
+              <p className="text-white/90 text-xs sm:text-sm text-center">Гарантия качества</p>
             </div>
-            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-lg">
-              <p className="text-white text-3xl font-bold">15+</p>
-              <p className="text-white/90 text-sm">Лет опыта</p>
+            <div className="bg-white/20 backdrop-blur-sm p-2 sm:p-4 rounded-lg flex-1 min-w-[100px] flex flex-col justify-center h-[80px] sm:h-[100px]">
+              <p className="text-white text-xl sm:text-3xl font-bold text-center">15+</p>
+              <p className="text-white/90 text-xs sm:text-sm text-center">Лет опыта</p>
             </div>
           </div>
         </div>
