@@ -84,8 +84,8 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-white shadow-md transition-transform duration-300 ease-in-out ${
-          isOpen ? "translate-y-0" : "-translate-y-full"
+        className={`md:hidden fixed top-[60px] left-0 w-full bg-white shadow-md transition-all duration-300 ${
+          isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
         <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
