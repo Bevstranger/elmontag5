@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed w-full z-50 transition-all duration-300 ${
+      className={`fixed w-full z-[100] transition-all duration-300 ${
         isScrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
       }`}
     >
@@ -84,7 +84,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`md:hidden fixed top-[60px] left-0 w-full bg-white shadow-md transition-all duration-300 ${
+        className={`md:hidden fixed top-[60px] left-0 w-full bg-white shadow-md transition-all duration-300 z-[90] ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
